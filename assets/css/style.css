@@ -1,0 +1,227 @@
+#logo {
+	width: 250px;
+	height: 100px;
+	position: relative;
+	margin-left: 20px;
+}
+
+li {
+	display: inline;
+    margin-top: 30px;
+    float: left;
+    padding-right: 10px;
+    /*margin-left: 15px;*/
+    /*font-family: "Quentin Caps";*/
+    font-size: 23px;
+    font-weight: bold;
+    color: #581415;
+}
+
+.dropdown {
+    position: relative !important;
+}
+
+
+.dropdown-content {
+	margin-top: 77px;
+	/*margin-left: 110px;*/
+    display: none;
+    position: absolute !important;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+li#dropdownMenuButton {
+	display: inline;
+    margin-top: 50px;
+    float: left;
+    padding-right: 10px;
+    /*margin-left: 15px;*/
+    /*font-family: "Quentin Caps";*/
+    font-size: 23px;
+    font-weight: bold;
+    color: #581415 !important;
+}
+
+li:hover {
+	color: #C9B07C;
+	cursor: pointer;
+}
+
+ul {
+	margin-left: 30px;
+}
+
+nav {
+	/*background-image: url("../images/wood.jpg");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px 20px 20px 120px;
+}
+
+/*.container {
+	margin-top: 20px;
+}*/
+
+#intro {
+
+	margin-top: 100px;
+}
+
+h1 {
+	font-size: 20px !important;
+}
+
+#image {
+	margin-left: 25px;
+}
+
+#yelp {
+
+	margin:50px;
+}
+
+p {
+	font-weight: 700;
+}
+
+.yelpName {
+	font-style: italic;
+	color: #666666;
+}
+
+h2 {
+	font-size: 20px !important;
+	font-weight: bold;
+	text-align: center;
+	font-variant: small-caps;
+	text-decoration: underline;
+	text-decoration-color: #ecf0f0;
+
+}
+
+h4 {
+	font-size: 16px !important;
+}
+
+#icons {
+	margin-top: 60px;
+	padding-left: 10px;
+}
+
+
+p.social {
+	font-size: 10px;
+}
+
+/*footer {
+	font-size: 12px;
+	text-align: right;
+	margin: 20px;
+}*/
+
+#location {
+	margin-left: -95px;
+}
+
+#social-container {
+	margin-left: 75px;
+}
+
+#revOne {
+	margin-left: -50px;
+}
+
+#revTwo {
+    margin-left: 30px;
+}
+
+#revThree {
+    margin-left: 20px;
+}
+
+#deliveryModal {
+	margin-top: 100px;
+}
+
+#aboutModal {
+	margin-top: 100px;
+}
+
+#servicesModal {
+	margin-top: 100px;
+}
+
+#orderModal {
+	margin-top: 100px;
+}
+
+#contactModal {
+	margin-top: 100px;
+}
+
+/*Version 2*/
+
+#bodyPic {
+	background-image: url("../images/bodyBckgrnd.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	margin-top: -15px;
+}
+
+.bodyText {
+	color: #ecf0f0;
+	text-align-last: center;
+	letter-spacing: 2px;
+	line-height: 200%;
+	margin-top: 140px;
+
+}
+
+#yelp2 {
+	margin: 30px;
+	padding-left: 60px;
+}
+
+#footer2 {
+
+}
+
+#actionBtn {
+	text-align: center;
+}
+
+/*.socLinks {
+	margin-right: -10px;
+}*/
+
+#openHours {
+	margin-left: 100px;
+}
+
+.map {
+	margin-left: 30px;
+}
+
+footer {
+	text-align: center;
+}
