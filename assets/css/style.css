@@ -1,8 +1,9 @@
 #logo {
 	width: 250px;
-	height: 100px;
-	position: relative;
-	margin-left: 20px;
+	height: 150px;
+	position: absolute;
+	margin-left: 120px;
+	margin-top: -80px;
 }
 
 li {
@@ -74,9 +75,14 @@ nav {
 	/*background-image: url("../images/wood.jpg");*/
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 20px 20px 20px 120px;
+	padding: 40px 20px 40px 100px;
 }
 
+#navBar{
+	margin-top: -20px;
+	margin-bottom: 10px;
+
+}
 /*.container {
 	margin-top: 20px;
 }*/
@@ -119,7 +125,7 @@ h2 {
 }
 
 h4 {
-	font-size: 16px !important;
+	font-size: 15px !important;
 }
 
 #icons {
@@ -186,6 +192,7 @@ p.social {
 	background-repeat: no-repeat;
 	height: 500px;
 	margin-top: -15px;
+	position: relative;
 }
 
 .bodyText {
@@ -202,9 +209,6 @@ p.social {
 	padding-left: 60px;
 }
 
-#footer2 {
-
-}
 
 #actionBtn {
 	text-align: center;
@@ -224,4 +228,21 @@ p.social {
 
 footer {
 	text-align: center;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+
+#socialIcons {
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+#connectCont {
+	width: 400px;
+	margin-left: 30px;
+
+}
+
+h3 {
+	font-size: 15px !important;
 }
