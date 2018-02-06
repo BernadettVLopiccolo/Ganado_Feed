@@ -68,9 +68,84 @@ li:hover {
 }
 
 ul {
-	margin-left: 30px;
+	/*margin-left: 30px;*/
+	list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #1bc2a2;
+
 }
 
+
+.modal-content {
+	width: 800px;
+}
+
+.mapy {
+	float: right !important;
+}
+
+.modalLogo {
+	text-align: center;
+}
+/*ul li {
+    display: block;
+    position: relative;
+    float: left;
+
+}
+
+
+li ul {
+	display: none;
+}
+
+ul li a {
+	display: block;padding: 1em;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+ul li a:hover {
+	background-color: pink;
+}
+
+
+li:hover > ul {
+   display: block;
+   position: absolute;
+}
+
+li:hover li {
+	float: none;
+}
+
+li:hover a {
+	background-color: pink;
+}
+
+li:hover li a:hover {
+	background-color: green;
+}
+
+.dropdown li ul li {
+	border-top: 0;
+}
+
+ul ul ul {
+	left: 100%;
+	top: 0;
+}
+
+ul:before,
+ul:after {
+	content: "";
+	display: table;
+}
+
+ul:after {
+	clear: both;
+}*/
 nav {
 	/*background-image: url("../images/wood.jpg");*/
 	background-repeat: no-repeat;
@@ -105,8 +180,13 @@ h1 {
 	margin:50px;
 }
 
+#yelph2 {
+	margin-left: -35px;
+}
+
 p {
 	font-weight: 700;
+	color: #581415;
 }
 
 .yelpName {
@@ -120,12 +200,15 @@ h2 {
 	text-align: center;
 	font-variant: small-caps;
 	text-decoration: underline;
-	text-decoration-color: #ecf0f0;
+	text-decoration-color: #C9B07C;
+	/*color: #581415;*/
+	color: #c41200 !important;
 
 }
 
 h4 {
 	font-size: 15px !important;
+	font-style: oblique;
 }
 
 #icons {
@@ -152,7 +235,36 @@ p.social {
 	margin-left: 75px;
 }
 
-#revOne {
+#revOne2 {
+	border-style: solid;
+	border-color: #C9B07C;
+	border-width: thin;
+	padding-top: 7px;
+	width: 300px;
+}
+
+#revTwo2 {
+	border-style: solid;
+	border-width: thin;
+	border-color: #C9B07C;
+	padding-top: 7px;
+	width: 300px;
+	margin-left: 100px;
+}
+
+#revThree2 {
+	border-style: solid;
+	border-width: thin;
+	border-color: #C9B07C;
+	padding-top: 7px;
+	width: 300px;
+	margin-left: 100px;
+}
+
+#reviews {
+	margin-left: 80px;
+}
+/*#revOne {
 	margin-left: -50px;
 }
 
@@ -162,7 +274,7 @@ p.social {
 
 #revThree {
     margin-left: 20px;
-}
+}*/
 
 #deliveryModal {
 	margin-top: 100px;
@@ -224,6 +336,7 @@ p.social {
 
 .map {
 	margin-left: 30px;
+	margin-top: 70px;
 }
 
 footer {
@@ -246,6 +359,7 @@ footer {
 h3 {
 	font-size: 15px !important;
 	margin-bottom: 20px !important;
+	font-style: oblique;
 }
 
 #deliveryPar {
