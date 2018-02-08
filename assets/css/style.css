@@ -239,26 +239,29 @@ p.social {
 	border-style: solid;
 	border-color: #C9B07C;
 	border-width: thin;
-	padding-top: 7px;
+	padding-top: 15px;
 	width: 300px;
+	text-align: center;
 }
 
 #revTwo2 {
 	border-style: solid;
 	border-width: thin;
 	border-color: #C9B07C;
-	padding-top: 7px;
+	padding-top: 15px;
 	width: 300px;
 	margin-left: 100px;
+	text-align: center;
 }
 
 #revThree2 {
 	border-style: solid;
 	border-width: thin;
 	border-color: #C9B07C;
-	padding-top: 7px;
+	padding-top: 15px;
 	width: 300px;
 	margin-left: 100px;
+	text-align: center;
 }
 
 #reviews {
