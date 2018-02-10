@@ -267,6 +267,11 @@ p.social {
 #reviews {
 	margin-left: 80px;
 }
+
+h3.email {
+	font-weight: bold;
+	font-size: 26px;
+}
 /*#revOne {
 	margin-left: -50px;
 }
