@@ -23,7 +23,7 @@
                   <div id="aboutModal" class="modal fade" role="dialog">
                      <div class="modal-dialog">
                         <!-- Modal content-->
-                        <div class="modal-content" style="width:800px">
+                        <div class="modal-content">
                            <div class="modal-header">
                               <button type="button" class="close" data-dismiss="modal">&times;</button>
                               <div class="modalLogo">
@@ -32,10 +32,10 @@
                            </div>
                            <div class="modal-body">
                               <div class="row">
-                                 <div class="col-md-5">
+                                 <!-- <div class="col-md-5">
                                     <img src="assets/images/familyShot.png" width="300" height="300">
-                                 </div>
-                                 <div class="col-md-7">
+                                 </div> -->
+                                 <div class="col-md-12">
                                     <p>We are a family company proudly operated and founded in Santa Clara California since 2013 specialized in products, accessories and solutions for the needs of pets and livestock. In Ganado Feed we love all pets and we believe that in addition to making our lives better they make us better people.</p>
 
 <p>Every day our staff helps people to know more about their pet's care so they can live more fully. In Ganado Feed we provide a wide variety of pet foods at competitive prices</p>
@@ -99,25 +99,7 @@
                      </div>
                   </div>
 
-                  <li data-toggle="modal" data-target="#orderModal">Order Now |</li>
-                  <!-- Modal -->
-                  <div id="orderModal" class="modal fade" role="dialog">
-                     <div class="modal-dialog">
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                           <div class="modal-header">
-                              <button type="button" class="close" data-dismiss="modal">&times;</button>
-                              <h4 class="modal-title">Order Header</h4>
-                           </div>
-                           <div class="modal-body">
-                              <p>Some text in the modal.</p>
-                           </div>
-                           <div class="modal-footer">
-                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+                  <a href="https://www.vendhq.com/" target="_blank"><li data-toggle="modal" data-target="#orderModal">Order Now |</li></a>
 
                   <li data-toggle="modal" data-target="#deliveryModal">Delivery |</li>
                   <!-- Modal -->
@@ -130,12 +112,41 @@
                               <h4 class="modal-title">Local Delivery</h4>
                            </div>
                            <div class="modal-body">
-                              <div class="row">
-                                 <div class="col-md-12">
-                                    <img src="assets/images/deliveryMap.png">
+                             <div class="row" id="deliveryTable">
+                                <div class="row">
+                                   <div class="col-md-8">
+                                      <h1 class="tH">Areas</h1>
+                                   </div>
+                                   <div class="col-md-4">
+                                      <h1 class="tH">Day Of Delivery</h1>
+                                   </div>
+                                </div>
+                                <div class="row">
+                                   <div class="col-md-8">
+                                      <p class="border">Woodside, Portola, Atherton, Los Altos, Stanford, Menlo Park, Palo Alto</p>
+                                   </div>
+                                   <div class="col-md-4">
+                                    <p class="border">Tuesday Biweekly</p></div>
+                                </div>
+                                <div class="row">
+                                   <div class="col-md-8">
+                                      <p class="border">South San Jose, Morgan Hill, San Martin, Gilroy, Hollister</p>
+                                   </div>
+                                   <div class="col-md-4">
+                                    <p class="border">Wednesday Weekly</p></div>
+                                </div>
+                                <div class="row">
+                                   <div class="col-md-12">
+                                      <p class="border">If your Area is not listed below, please contact us - we are probably in your neighborhood, too!</p>
+                                   </div>
+                                </div>
+                             </div>
+                              <!-- <div class="row"> -->
+                                 <!-- <div class="col-md-12"> -->
+                                    <!-- <img src="assets/images/deliveryMap.png"> -->
                               <!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1hJULMk40NDp-XKybvpwdjIVoS1snC-Oq" width="640" height="480"></iframe> -->
-                              </div>
-                              </div>
+                              <!-- </div> -->
+                              <!-- </div> -->
                               <!-- <div class="row">
                                  <div class="col-md-6" class="mapOne">
                               <iframe src="https://www.google.com/maps/d/embed?mid=1faoINcUvIqRgYCvRLZtzf9UYNQXwW4m4&z=9&localtion=37.4110677,-122.1866535" width="240" height="280"></iframe>
@@ -153,11 +164,11 @@
                                  </div>
                               </div> -->
                            </div>
-                           <div class="row">
+                          <!--  <div class="row">
                               <div class="col-md-12">
                                  <p id="deliveryPar">If your Area is not listed below, please contact us - we are probably in your neighbourhood, too!</p>
                               </div>
-                           </div>
+                           </div> -->
                            <div class="modal-footer">
                               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                            </div>
@@ -170,14 +181,35 @@
                   <div id="contactModal" class="modal fade" role="dialog">
                      <div class="modal-dialog">
                         <!-- Modal content-->
-                        <div class="modal-content" style="width:800px">
+                        <div class="modal-content">
                            <div class="modal-header">
                               <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Contact Us</h4>
                               <div class="modalLogo">
-                                 <img src="assets/images/logo.png" width="150" height="80">
+                                 <div class="row" id="contactInfo">
+                                    <div class="col-md-6">
+                                    <!-- <h1>Ganado Feed</h1> -->
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <h4>945 Lincoln Avenue</h4>
+                                    <h4>San Jose</h4>
+                                    <h4>95126</h4>
+                                    </div>
+                                    <div class="col-md-6" id="phoneAndEmail">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <h4>(408) 389-8626</h4>
+                                    <h3 class="email">@</h3>
+                                    <h4>info@ganadofeed.com</h4>
+                                 </div>
+                                 </div>
+                                 <!-- <img src="assets/images/logo.png" width="150" height="80"> -->
                                  </div>
                            </div>
-                           <div class="modal-body">
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <img src="assets/images/three.png" width="598">
+                              </div>
+                           </div>
+                           <!-- <div class="modal-body">
                               <div class="row">
                                  <div class="col-md-4">
                                     <h1>Ganado Feed</h1>
@@ -193,12 +225,8 @@
                                  <div class="col-md-8">
                                     <img src="assets/images/smallMap.png">
                                  </div>
-                                 <!-- <div class="col-md-4"></div>
-                                 <div class="col-md-8" class="mapy">
-                                    <img src="assets/images/mapy.png" width="500" height="400">
-                                 </div> -->
                               </div>
-                           </div>
+                           </div> -->
                            <div class="modal-footer">
                               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                            </div>
@@ -217,7 +245,7 @@
             <div class="col-md-4" id="actionBtn">
                <h1 class="bodyText">We bring you the best quality hay at a fair price, as well as a wide selection of feed and products for all your furry friends' needs.</h1>
                <br>
-               <button class="btn">Order Now</button>
+               <a href="https://www.vendhq.com/" target="_blank"><button class="btn">Order Now</button></a>
             </div>
             <div class="col-md-4"></div>
          </div>
@@ -247,7 +275,8 @@
          </div>
 
        <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.616110075745!2d-121.85805808480065!3d37.304231179847775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb35ca579cbdc885d!2sGanado+Feed!5e0!3m2!1sen!2sus!4v1515956947980" width="1400" height="250" frameborder="1" style="border:0" allowfullscreen></iframe>
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.616110075745!2d-121.85805808480065!3d37.304231179847775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb35ca579cbdc885d!2sGanado+Feed!5e0!3m2!1sen!2sus!4v1515956947980" width="1400" height="250" frameborder="1" style="border:0" allowfullscreen></iframe> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.2324167808165!2d-121.90750164910021!3d37.313321979747215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e34ab0606b2a7%3A0x7c6a9d65dca4b61f!2s945+Lincoln+Ave%2C+San+Jose%2C+CA+95126!5e0!3m2!1sen!2sus!4v1518554382622" width="1400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
          <div class="row" id="hoursAndSocial">
             <div class="col-md-8" id="hours">
