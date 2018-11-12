@@ -204,7 +204,7 @@ h3.email {
 /*Version 2*/
 
 #bodyPic {
-	background-image: url("../images/bodyBckgrnd.png");
+	background-image: url("../images/bodyBckgrnd.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 500px;
@@ -217,7 +217,7 @@ h3.email {
 	text-align-last: center;
 	letter-spacing: 2px;
 	line-height: 200%;
-	margin-top: 140px;
+	margin-top: 170px;
 
 }
 
@@ -322,4 +322,8 @@ h1.tH {
 	border-color: #7f7f7f;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+#mapLocation {
+	margin-left: 50px;
 }
